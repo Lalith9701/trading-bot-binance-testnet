@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 3. Create Environment File
 Create a .env file in the project root.
-
+---
 BINANCE_API_KEY=your_testnet_api_key
 BINANCE_API_SECRET=your_testnet_secret_key
 
@@ -97,7 +97,7 @@ Logging
 All API requests, responses, and errors are logged in:
 
 logs/trading.log
-
+---
 Example log entry:
 
 2026-03-06 INFO Order Response: {orderId: 123456, status: FILLED}
@@ -114,13 +114,13 @@ Binance API errors
 Network failures
 
 Errors are printed in the CLI and also recorded in the log file.
-
+---
 Example Commands
 
 Market Order:
 
 python bot/cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
-
+---
 Limit Order:
 
 python bot/cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 70000
