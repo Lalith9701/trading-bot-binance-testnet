@@ -150,8 +150,4 @@ Risk management module
 
 Web UI for order management
 
-Author
 
-Lalith Charan
-
-Python Developer Candidate
